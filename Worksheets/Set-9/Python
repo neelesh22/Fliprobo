@@ -1,0 +1,55 @@
+1. B
+2. C
+3. A
+4. A
+5. C
+6. C
+7. B
+8. A,B,C
+9. B,D
+10. C
+11. 
+Lists: are just like dynamic sized arrays, declared in other languages (vector in C++ and ArrayList in Java). Lists need not be homogeneous always which makes it a most powerful tool in Python.
+Tuple: A Tuple is a collection of Python objects separated by commas. In someways a tuple is similar to a list in terms of indexing, nested objects and repetition but a tuple is immutable unlike lists that are mutable.
+Set: A Set is an unordered collection data type that is iterable, mutable and has no duplicate elements. Python’s set class represents the mathematical notion of a set.
+Dictionary: in Python is an unordered collection of data values, used to store data values like a map, which unlike other Data Types that hold only single value as an element, Dictionary holds key:value pair. Key value is provided in the dictionary to make it more optimized.
+
+12.
+Strings are immutable so we can't change its value. But the contents of the list can change. The tuple itself isn't mutable but contain items that are mutable.
+print("I"," ","Love"," ","Python")
+
+13.
+The ord() method in Python converts a character into its Unicode code value. This method accepts a single character. You will receive the numerical Unicode value of the character as a response. The ord() method is useful if you want to check whether a string contains special characters.
+Def type_variable(x)
+result=type(x)
+print(result)
+
+14.
+import cmath
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+# calculate the discriminant
+d = (b**2) - (4*a*c)
+
+# find two solutions
+sol1 = (-b-cmath.sqrt(d))/(2*a)
+sol2 = (-b+cmath.sqrt(d))/(2*a)
+
+print('The solution are {0} and {1}'.format(sol1,sol2))
+
+15.
+num = int(input("Enter the value of n: "))
+hold = num
+sum = 0
+
+if num <= 0: 
+   print("Enter a whole positive number!") 
+else: 
+   while num > 0:
+        sum = sum + num
+        num = num - 1;
+    # displaying output
+    print("Sum of first", hold, "natural numbers is: ", sum)

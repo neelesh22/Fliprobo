@@ -1,0 +1,18 @@
+1. C
+2. B
+3. B
+4. B
+5. C
+6. A
+7. C
+8. B
+9. C
+10. C
+11. A
+12. D
+13.
+The standard normal or z-distribution assumes that you know the population standard deviation. The t-distribution is based on the sample standard deviation.
+14.
+Like the normal distribution, the t-distribution is symmetric. If you think about folding it in half at the mean, each side will be the same. Like a standard normal distribution (or z-distribution), the t-distribution has a mean of zero. The normal distribution assumes that the population standard deviation is known.
+15.
+The t distribution (aka, Student's t-distribution) is a probability distribution that is used to estimate population parameters when the sample size is small and/or when the population variance is unknown.
